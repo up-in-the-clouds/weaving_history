@@ -98,7 +98,7 @@ layout: story
       <li>Related stories</li>
       <li>Further reading</li>
     </ul>
-    <img style="width:75%" src="/assets/images/moravia2.jpg">
+    <img style="width:75%" src="{{ '/assets/images/moravia2.jpg' | relative_url }}">
   </div>
 </div>
 
