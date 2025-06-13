@@ -14,8 +14,8 @@ layout: page
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
     <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
-      <a href="/stories/" class="btn btn-info btn-lg px-4 fw-bold">Explore Stories</a>
-      <a href="/collection/" class="btn btn-dark btn-lg px-4 fw-bold">Visit Archive</a>
+      <a href="./stories/" class="btn btn-info btn-lg px-4 fw-bold">Explore Stories</a>
+      <a href="./collection/" class="btn btn-dark btn-lg px-4 fw-bold">Visit Archive</a>
     </div>
   </div>
 </section>
