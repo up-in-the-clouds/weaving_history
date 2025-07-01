@@ -1,0 +1,25 @@
+<!-- _includes/story/step.html -->
+<section
+  class="step"
+  id="{{ include.id }}"
+  data-step="{{ include.data_step }}"
+  data-x="{{ include.x }}"
+  data-y="{{ include.y }}"
+  data-zoom="{{ include.zoom }}"
+>
+  <h4>{{ include.title }}</h4>
+  <p>{{ include.text }}</p>
+
+  {% if include.offcanvas_id %}
+  <button
+    type="button"
+    class="btn btn-outline-dark mt-4"
+    data-bs-toggle="offcanvas"
+    data-bs-target="#{{ include.offcanvas_id }}"
+    aria-controls="{{ include.offcanvas_id }}"
+    data-bs-backdrop="false"
+  >
+    More info
+  </button>
+  {% endif %}
+</section>
