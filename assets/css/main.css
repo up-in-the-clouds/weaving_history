@@ -136,25 +136,38 @@ html, body {
   .offcanvas-second {
     width: 58%!important;
     max-width: 1040px;
+    z-index: 1055;
   }
 
   .offcanvas-backdrop.show {
     opacity: 0.25!important;
     }
-    /* Default offcanvas */
-  .offcanvas {
-    z-index: 1050;
-  }
 
-  /* Second layer */
-  #infoPanelLevel2 {
-    z-index: 1060;
-  }
-
-  /* Third layer */
-  #infoPanelLevel3 {
-    z-index: 1070;
+/* Base stacked panel */
+.stacked-canvas {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: min(57vw, 90vw);
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+  transform: translateX(100%);
+  transition: transform .28s ease;
+  z-index: 1055; /* above Bootstrap offcanvas (1045) */
+  overflow-y: auto;
 }
+
+/* Visible state */
+.stacked-canvas.is-open {
+  transform: translateX(0);
+}
+
+/* Layer‑2 specific (tweak if you add a 3rd layer someday) */
+.stacked-canvas-second { z-index: 1055; }
+
+.stacked-body { padding-bottom: 2rem; }
+
 
 /* about page */
 .main-section {
