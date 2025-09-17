@@ -7,8 +7,8 @@
       "media": {
         "type": "map-image",
         "src": "/assets/images/moravia.jpg",
-        "width": 2586,
-        "height": 2102
+        "width": 2048,
+        "height": 1364
       },
       "x": 900,
       "y": 600,
@@ -36,15 +36,15 @@
       "media": {
         "type": "map-image",
         "src": "/assets/images/moravia.jpg",
-        "width": 2586,
-        "height": 2102
+        "width": 2048,
+        "height": 1364
       },
       "x": 1400,
       "y": 600,
       "zoom": 1.25,
       "pins": [
-        "600|900|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo sed orci posuere luctus.",
-        "720|1020|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo sed orci posuere luctus."
+        "1400|600|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo sed orci posuere luctus.",
+        "1500|700|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo sed orci posuere luctus."
       ],
       "layer1": {
         "title": "Sources & Notes",
@@ -65,8 +65,8 @@
       "media": {
         "type": "map-image",
         "src": "/assets/images/moravia.jpg",
-        "width": 2586,
-        "height": 2102
+        "width": 2048,
+        "height": 1364
       },
       "x": 600,
       "y": 500,
@@ -90,7 +90,7 @@
       "view": "video",
       "media": {
         "type": "video",
-        "src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "src": "https://www.youtube.com/watch?v=no5RgObBOO4",
         "start": 0
       },
       "x": 0,
@@ -106,7 +106,28 @@
         "title": "Further Reading",
         "text": "Layer 2 lists selected references or links for readers who want to go deeper after viewing the timeline.",
         "media": "/assets/images/moravia3.jpg"
+      }    
+    },
+    {
+      "id": 5,
+      "question": "What does this mean?",
+      "answer": "Short answer for Step 5. Talk about implications and consequences.",
+      "view": "timeline",
+      "x": 0,
+      "y": 0,
+      "zoom": 1,
+      "pins": [],
+      "layer1": {
+        "title": "Timeline Notes",
+        "text": "Layer 1 can summarize how this step fits within the overall chronology. Mention key dates or phases.",
+        "media": "/assets/images/moravia2.jpg"
+      },
+      "layer2": {
+        "title": "Further Reading",
+        "text": "Layer 2 lists selected references or links for readers who want to go deeper after viewing the timeline.",
+        "media": "/assets/images/moravia3.jpg"
       }
     }
+
   ]
   
